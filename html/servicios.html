@@ -12,11 +12,11 @@
 <body>
     <main id="mainContent">
         <!--Cabecera-->
-        <header class="header"> 
-            <div class="logo">
+        <header class="header">
+            <div class="header__logo">
                 <a href="../index.html"> <h1>Joyas Doble-T</h1></a>
             </div>
-            <div class="navbar">
+            <div class="header__navbar">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="../html/nosotros.html">Nosotros</a></li>
@@ -29,28 +29,28 @@
 
         
         <!--section-->
-        <section class="section">
-            <h2>Servicios</h2>
-            <article class="servicios">
-                <img src="../img/servicio01.JPG" alt="servicio local" class="img">
-                <div class="servicio_descripcion">
-                    <h3>Titulo</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi non repellat quos ipsa, nostrum corrupti labore asperiores doloribus, quo, tenetur nesciunt minus minima voluptatem aspernatur itaque voluptatum assumenda repellendus debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione dolorum aliquam eius temporibus quam ex reprehenderit, optio voluptate, ipsam ipsum dolore totam distinctio tempore dolor. Nemo, voluptatum reprehenderit. Laudantium.
-                </div>
-            </article>
-            <article class="servicios">
-                <div class="servicio_descripcion">
-                    <h3>Titulo</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi non repellat quos ipsa, nostrum corrupti labore asperiores doloribus, quo, tenetur nesciunt minus minima voluptatem aspernatur itaque voluptatum assumenda repellendus debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione dolorum aliquam eius temporibus quam ex reprehenderit, optio voluptate, ipsam ipsum dolore totam distinctio tempore dolor. Nemo, voluptatum reprehenderit. Laudantium.
-                </div>
-                <img src="../img/servicio02.JPG" alt="servicio local" class="img">
-            </article>
-        </section>
+        <div class="contenido">
+            <section class="servicio">
+                <h2>Servicios</h2>
+                <article class="servicios__articulo">
+                    <img src="../img/servicio01.JPG" alt="servicio local" class="img">
+                        <h3>Titulo</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi non repellat quos ipsa, nostrum corrupti labore asperiores doloribus, quo, tenetur nesciunt minus minima voluptatem aspernatur itaque voluptatum assumenda repellendus debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione dolorum aliquam eius temporibus quam ex reprehenderit, optio voluptate, ipsam ipsum dolore totam distinctio tempore dolor. Nemo, voluptatum reprehenderit. Laudantium.</p> 
+                </article>
+                <article class="servicios__articulo">
+                        <h3>Titulo</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi non repellat quos ipsa, nostrum corrupti labore asperiores doloribus, quo, tenetur nesciunt minus minima voluptatem aspernatur itaque voluptatum assumenda repellendus debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione dolorum aliquam eius temporibus quam ex reprehenderit, optio voluptate, ipsam ipsum dolore totam distinctio tempore dolor. Nemo, voluptatum reprehenderit. Laudantium.</p> 
+                    
+                    <img src="../img/servicio02.JPG" alt="servicio local" class="img">
+                </article>
+            </section>
+        </div>
+        
         
 
         <!--pie de pagina-->
         <footer class="footer">
-            <div class="data">
+            <div class="footer__data">
                 <ul>
                     <li>
                         Av.Siempreviva 123 - Springfield
@@ -69,10 +69,13 @@
                     </li>
                 </ul>
             </div>
-            <div class="map">
+            <div class="footer__map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6552.720776087533!2d-58.30009489793455!3d-34.796873965101284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32bf7426f71a5%3A0x8e00edae30ee9610!2sSion%20del%20Padre%20-%20Padres%20de%20Schoenstatt!5e0!3m2!1ses-419!2sar!4v1658339303472!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="pie">
+            
+        </footer>
+
+            <div class="footer__pie">
                 <p>
                     &copy; 2022 - Derechos Reservados
                 </p>
@@ -80,7 +83,6 @@
                     Desarrollado por <a href="tu_sitio">mi</a>
                 </p>
             </div>
-        </footer>
     </main>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
