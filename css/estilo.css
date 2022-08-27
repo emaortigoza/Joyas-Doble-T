@@ -12,9 +12,12 @@ html{
 img{
     width: 100%;
 }
-
+body{
+    background-color: #080808;
+}
 
 #mainContent{
+    color: whitesmoke;
     background-color: #080808;
     height: 100vh;
     display: grid;
@@ -30,45 +33,49 @@ img{
 /*Cabecera*/
 .header{
     grid-area: header;
-    position: fixed;
-    background-color: transparent;
-    width: 100%;
-    height: 100px;
+    position: fixed top;
+    background-color: #080808;
+    color: whitesmoke;
     box-shadow: 0 0 5px 1px rgba(221, 208, 208, 0.452);
-    display: flex;
-    justify-content: space-between;
-    padding: 0 45px;
-    align-items: center;
 
 }
-    .header__logo{
+    .logo{
         font-size: 25px;
         font-weight: 600;
     }
-        .header__logo a{
+        .logo a{
             color: white;
             text-decoration: none;
         }
-    .header__navbar ul{
+        .navbar{
+            color: whitesmoke;
+        }
+        .navbar .button{
+            color: whitesmoke;
+        }
+    .navbar ul{
         padding: 0;
         margin: 0;
         list-style: none;
         color: whitesmoke;
     }
-        .header__navbar ul li{
+        .navbar ul li{
             display: inline-block;
             margin: 0 1.5rem;
             font-size: 18px;
             font-weight: 600;
             
         }
-        .header__navbar ul li a{
+        .navbar ul li a{
             color: whitesmoke;
             text-decoration: none;
         }
-        .header__navbar ul li a:hover{
-            background-color: silver;
-            color: #080808;
+        .navbar .button{
+            color: whitesmoke;
+        }
+        .navbar ul li a:hover{
+            background-color: transparent;
+            color: gold;
             border-radius: 5px;
         }
 
@@ -79,10 +86,9 @@ img{
 .carrusel{
     background-color: #080808;
     grid-area: contenido;
-    margin-top: 120px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    padding: 0 45px;
     align-items: center;
 }
     .carrusel .carrusel__img{
