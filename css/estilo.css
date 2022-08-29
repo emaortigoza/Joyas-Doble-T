@@ -117,7 +117,7 @@ body{
         color: whitesmoke;
         background-color: #080808;
         grid-area: contenido;
-        margin-top: 100px;
+        margin-top: 20px;
         padding: 10px;
         width: 100%;
         height: auto;
@@ -148,7 +148,7 @@ body{
                 color: whitesmoke;
                 background-color: #080808;
                 grid-area: contenido;
-                margin-top: 100px;
+                margin-top: 20px;
                 padding: 20px;
             }
                 .servicios__articulo{
@@ -174,7 +174,7 @@ body{
     width: 100%;
     background-color: #080808;
     display: flex;
-    margin-top: 100px;
+    margin-top: 20px;
     flex-wrap: wrap;
     
 }
@@ -184,6 +184,14 @@ body{
     }
         .galeria__Img img{
             margin-top: 5px;
+            opacity: 0.8;
+            transition: all 1.5s;
+        }
+
+        .galeria__Img img:hover {
+            transform: scale(1.1);
+            opacity: 1;
+            border-radius: 10px;
         }
 
  /*contacto*/      
@@ -192,7 +200,7 @@ body{
         color: whitesmoke;
         background-image: url(../img/img4.jpg);
         grid-area: contenido;
-        margin-top: 100px;
+        margin-top: 20px;
         padding: 10px;
         width: 100%;
         height: 100vh;
@@ -233,8 +241,8 @@ body{
             font-weight: 300;
         }
         .footer__data ul li a:hover{
-                 background-color:silver;
-                color: #080808;
+                 background-color:#080808;
+                color: gold;
         }
 
         .footer__pie{
