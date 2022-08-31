@@ -86,6 +86,7 @@ body{
 .carrusel{
     background-color: #080808;
     grid-area: contenido;
+    margin-top: 20px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
