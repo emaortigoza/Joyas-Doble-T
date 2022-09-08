@@ -235,6 +235,7 @@ li{
       font-size: 14px;
       font-weight: 300;
   }
+
    a:hover{
            background-color:#080808;
           color: gold;
@@ -242,16 +243,17 @@ li{
 }
 
 $footer: (
-tel: whitesmoke,
-whatsapp: whitesmoke,
-instagram: whitesmoke,
-email: whitesmoke,
+-icono--tel: whitesmoke,
+-icono--whatsapp: whitesmoke,
+-icono--instagram: whitesmoke,
+-icono--email: whitesmoke,
 );
-@each $item, $icon in $footer {
-.icon--#{$item}{
-color: $icon;
+@each $item, $-icono in $footer {
+.-icono--#{$item}{
+color: $-icono;
   }
 }
+
   
   .footer__pie{
       grid-area: pie;

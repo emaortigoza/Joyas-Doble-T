@@ -201,6 +201,18 @@ body {
     background-color: #080808;
     color: gold; }
 
+.-icono---icono--tel {
+  color: whitesmoke; }
+
+.-icono---icono--whatsapp {
+  color: whitesmoke; }
+
+.-icono---icono--instagram {
+  color: whitesmoke; }
+
+.-icono---icono--email {
+  color: whitesmoke; }
+
 .footer__pie {
   grid-area: pie;
   background-color: #080808;
