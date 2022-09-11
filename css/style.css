@@ -13,6 +13,7 @@ img {
 body {
   background-color: #080808; }
 
+/*mixin*/
 #mainContent {
   color: whitesmoke;
   background-color: #080808;
@@ -22,6 +23,7 @@ body {
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: "header" "contenido" "footer" "pie"; }
 
+/*header*/
 .header {
   grid-area: header;
   position: fixed top;
@@ -177,6 +179,7 @@ body {
 .formContacto__info {
   padding: 10px; }
 
+/*footer*/
 .footer {
   grid-area: footer;
   background-color: #080808;
